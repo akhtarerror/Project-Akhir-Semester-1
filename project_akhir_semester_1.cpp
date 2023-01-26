@@ -149,7 +149,7 @@ void searchData(int n)
 
   do
   {
-		cout << "\t\t\tApakah anda ingin mencari barang ulang? (y/n) :\n\t\t\t";
+    cout << "\t\t\tApakah anda ingin mencari barang ulang? (y/n) :\n\t\t\t";
     cin >> ulang;
   }while(ulang == ulang != 'y' && ulang != 'Y' && ulang != ulang != 'n' && ulang != 'N');
     if(ulang == ulang == 'y' || ulang == 'Y'){
@@ -159,32 +159,6 @@ void searchData(int n)
           showData(n);
           sortData(n);
 	}
-/*    cout << "\t\t\tApakah anda ingin mencari barang ulang? (y/n) :\n\t\t\t";
-    cin >> ulang;
-    switch (ulang)
-    {
-    case 'y':
-    case 'Y':
-      searchData(n);
-      do
-      {
-        cout << "\t\t\tApakah Anda ingin menginput barang secara awal? (y/n):\n\t\t\t";
-        cin >> lagi;
-        switch (lagi)
-        {
-        case 'y':
-        case 'Y':
-          cout << "\tMasukkan banyak data = ";
-          cin >> n;
-          inputData(n);
-          showData(n);
-          sortData(n);
-        }
-      default:
-        break;
-      } while (ulang == 'y' || ulang == 'Y');
-    }
-  } while (ulang == 'y' || ulang == 'Y'); */
 }
 
 int main()
